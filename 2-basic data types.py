@@ -21,7 +21,7 @@ if __name__ == '__main__':
     t= tuple(integer_list)
     print (hash(t))
 
-
+#basic data types
 #3-list comprehension
 if __name__ == '__main__':
     x = int(input())
