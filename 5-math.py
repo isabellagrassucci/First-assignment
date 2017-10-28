@@ -1,5 +1,5 @@
 #math
-#polar coordinates
+#1-polar coordinates
 import cmath
 z= complex(input())
 distance= abs(z)
