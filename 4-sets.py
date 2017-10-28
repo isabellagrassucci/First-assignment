@@ -109,14 +109,14 @@ for k in s:
 print (sm)
 
 #sets
-#the captain's room
+#11-the captain's room
 k= int(input())
 l= list(map(int, input().split()))
 s= set(l)
 print(((sum(s)*k)-(sum(l)))//(k-1))
         
 #sets
-#check subset
+#12-check subset
 for i in range(int(input())): #More than 4 lines will result in 0 score. Blank lines won't be counted. 
     a = int(input()); A = set(input().split()) 
     b = int(input()); B = set(input().split())
@@ -126,7 +126,7 @@ for i in range(int(input())): #More than 4 lines will result in 0 score. Blank l
         print (False)
         
 #sets
-#check superset
+#13-check superset
 s= set(map(int,input().split()))
 n= int(input())
 superset= True
